@@ -20,7 +20,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Viewbox Grid.ColumnSpan="3" Grid.RowSpan="2">
+        <Viewbox Grid.ColumnSpan="3" Grid.RowSpan="2" HorizontalAlignment="Right">
             <TextBlock x:Name="NumerosTextBlock"  Margin="5"></TextBlock>
         </Viewbox>
         <Button Content="7" FontSize="50" Grid.Column="0" Grid.Row="2" Click="Numero_Click" Tag="7"></Button>
