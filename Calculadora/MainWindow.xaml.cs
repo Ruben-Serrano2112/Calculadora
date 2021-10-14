@@ -24,5 +24,12 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+
+        private void Numero_Click(object sender, RoutedEventArgs e)
+        {
+            Button botonNumero = (Button)sender;
+                NumerosTextBlock += botonNumero.Tag;
+        }
     }
 }
